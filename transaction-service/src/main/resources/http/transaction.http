@@ -1,0 +1,9 @@
+POST http://localhost:8082/transaction/make
+Content-Type: application/json
+
+{
+  "fromCardNumber": "12343",
+  "toCardNumber": "12332445",
+  "amount": 10
+}
+
